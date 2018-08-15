@@ -1,34 +1,9 @@
 {
   "name": "fwd-boilerplate-theme",
-  "version": "0.0.1",
-  "description": "WordPress boilerplate theme for use as a starting point for development.",
-  "main": "index.js",
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ],
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  },
-  "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/designfwd/fwd-boilerplate-theme.git"
-  },
-  "keywords": [
-    "wordpress",
-    "wordpress-theme",
-    "wordpress-starter-theme"
-  ],
-  "author": "FWD Creative, LLC",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/designfwd/fwd-boilerplate-theme/issues"
-  },
-  "homepage": "https://github.com/designfwd/fwd-boilerplate-theme#readme"
+  "version": "1.0.0",
+  "description": "WordPress boilerplate theme for use as a starting point for development",
+  "main": "resources/scripts/dist/index.js",
+  "repository": "https://github.com/designfwd/fwd-boilerplate-theme.git",
+  "author": "FWD Creative LLC",
+  "license": "GPL-3.0"
 }
