@@ -76,5 +76,11 @@ wp-content/plugins/hello.php
 # HTAccess
 .htaccess
 
-
+# Composer vendor folder
 /vendor/
+
+# Dist folders
+resources/fonts/dist/
+resources/images/dist/
+resources/scripts/dist/
+resources/styles/dist/
