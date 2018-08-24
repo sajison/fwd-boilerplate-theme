@@ -128,10 +128,7 @@ module.exports = {
             }
           },
           {
-            loader: 'eslint-loader',
-            options: {
-              baseConfig: path.resolve(project.config)
-            }
+            loader: 'eslint-loader'
           }
         ]
       },

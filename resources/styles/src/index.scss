@@ -1,0 +1,22 @@
+// Bourbon
+@import '~bourbon/core/bourbon';
+
+// Normalize SCSS
+@import '~normalize-scss/sass/normalize';
+@include normalize();
+
+html {
+  width: 100%;
+}
+
+div {
+  height: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+::placeholder {
+  color: gray;
+}

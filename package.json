@@ -15,8 +15,25 @@
     "Firefox ESR",
     "not dead"
   ],
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "impliedStrict": true
+      }
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "jquery": true
+    },
+    "parser": "babel-eslint",
+    "extends": "eslint:recommended"
+  },
   "dependencies": {
     "dialog-polyfill": "^0.4.10",
+    "lazysizes": "^4.1.1",
     "smoothscroll-polyfill": "^0.4.3"
   },
   "devDependencies": {
