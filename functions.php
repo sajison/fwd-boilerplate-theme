@@ -8,7 +8,5 @@
  * You can add code below, but the structure of this project allows for better
  * placement of files outside of the root directory. If you're unfamiliar with
  * where something should go, poke around!
- *
- *
  */
-require_once( dirname( __FILE__ ) . 'app/app.php' );
+require_once( dirname( __FILE__ ) . '/app/app.php' );

@@ -10,7 +10,6 @@ The theme, at its core, must be a boilerplate that requires no configuration or 
  - Assets will be transpiled if necessary
  - Assets will be compressed as much as possible without sacrificing noticeable quality
  - An optional newer version of jQuery will be included through a toggleable option in theme settings
- - Fonts will be converted from TTF to WOFF and WOFF2
  - JavaScript will be loaded in the footer where possible
  - Custom image sizes will be set for the theme
  - TypeKit support will be toggleable through theme settings

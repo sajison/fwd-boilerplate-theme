@@ -1,7 +1,6 @@
 const path = require('path');
 
 // Require our plugins
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 const MagicImporter = require('node-sass-magic-importer');
 const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
@@ -16,18 +15,6 @@ project.images = path.resolve(project.resources, 'images');
 project.scripts = path.resolve(project.resources, 'scripts');
 project.styles = path.resolve(project.resources, 'styles');
 
-// CleanWebpackPlugin settings
-let pathsToClean = [
-  path.resolve(project.fonts, 'dist'),
-  path.resolve(project.images, 'dist'),
-  path.resolve(project.scripts, 'dist'),
-  path.resolve(project.styles, 'dist')
-];
-let cleanOptions = {
-  root: project.root,
-  verbose: false
-}
-
 module.exports = {
   mode: 'production',
   entry: {
@@ -39,7 +26,6 @@ module.exports = {
   },
   devtool: 'source-map',
   plugins: [
-    new CleanWebpackPlugin(pathsToClean, cleanOptions),
     new MiniCSSExtractPlugin({
       filename: '../../styles/dist/[name].css'
     }),
@@ -124,7 +110,7 @@ module.exports = {
           {
             loader: 'babel-loader',
             options: {
-              presets: ['babel-preset-env']
+              presets: ['@babel/preset-env']
             }
           },
           {
