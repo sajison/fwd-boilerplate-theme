@@ -44,10 +44,8 @@
 @import './tools/placeholders/input-reset';
 // List style resets
 @import './tools/placeholders/list-reset';
-
 // Transparent overlay
 @import './tools/placeholders/overlay';
-
 // Preloader
 @import './tools/placeholders/preload';
 
@@ -59,6 +57,8 @@
 @import './tools/mixins/font';
 // Headers
 @import './tools/mixins/headers';
+// Line height crop
+@import './tools/mixins/line-height-crop';
 
 
 /**
