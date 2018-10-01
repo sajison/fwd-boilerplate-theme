@@ -22,3 +22,8 @@ body {
 }
 
 // ::selection {}
+
+// @reference https://twitter.com/LeaVerou/status/1045768279753666562
+:focus:not(:focus-visible) {
+  outline: none;
+}
