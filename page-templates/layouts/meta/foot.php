@@ -1,7 +1,7 @@
 <?php
 /**
- * WordPress footer and, if it's toggled, jQuery
+ * WordPress footer and anything else needed here
  */
-
+do_action('get_footer');
 wp_footer();
 ?>
