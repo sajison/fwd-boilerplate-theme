@@ -22,7 +22,7 @@ function fwd_image_sizes() {
   add_image_size('1024w', 1024, 9999);
   add_image_size('1280w', 1280, 9999);
   add_image_size('1366w', 1366, 9999);
-  add_image_size('1440w', 1366, 9999);
+  add_image_size('1440w', 1440, 9999);
   add_image_size('1600w', 1600, 9999);
   add_image_size('1920w', 1920, 9999);
   add_image_size('2560w', 2560, 9999);
