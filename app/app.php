@@ -7,6 +7,9 @@ require( get_stylesheet_directory( ) .  '/vendor/autoload.php' );
 /**
  * Helper functions
  */
+require 'helpers/fwd-nav-menu.php';
+require 'helpers/fwd-sub-nav.php';
+require 'helpers/get-nowrap-field.php';
 require 'helpers/get-partial.php';
 require 'helpers/get-svg.php';
 require 'helpers/picsum-img-url.php';
