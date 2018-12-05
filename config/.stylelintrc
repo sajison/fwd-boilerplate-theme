@@ -28,12 +28,16 @@
     # Keyframe declaration
     "keyframe-declaration-no-important": true,
 
-    # Declaration block
-    "declaration-block-no-duplicate-properties": true,
+    # Declaration block  "declaration-block-no-duplicate-properties": true,
     "declaration-block-no-shorthand-property-overrides": true,
 
     # Block
     "block-no-empty": true,
+
+    # Selector
+    "selector-pseudo-class-no-unknown": true,
+    "selector-pseudo-element-no-unknown": true,
+    "selector-type-no-unknown": true,
 
     # Media feature
     "media-feature-name-no-unknown": true,
@@ -44,8 +48,7 @@
     # Comment
     "comment-no-empty": true,
 
-    # General/Sheet
-    "no-descending-specificity": true,
+    # General/Sheet "no-descending-specificity": true,
     "no-duplicate-at-import-rules": true,
     "no-duplicate-selectors": true,
     "no-empty-source": true,
@@ -76,8 +79,7 @@
     # Color
     "color-hex-length": "short",
 
-    # Font family
-    "font-family-name-quotes": "always-where-recommended",
+    # Font family "font-family-name-quotes": "always-where-recommended",
 
     # Function
     "function-comma-space-before": "never",
@@ -85,12 +87,10 @@
     "function-name-case": "lower",
     "function-whitespace-after": "always",
 
-    # Number
-    "number-leading-zero": "never",
+    # Number "number-leading-zero": "never",
     "number-no-trailing-zeros": true,
 
-    # Length
-    "length-zero-no-unit": true,
+    # Length "length-zero-no-unit": true,
 
     # Unit
     "unit-case": "lower",
@@ -133,8 +133,7 @@
     "at-rule-semicolon-newline-after": "always",
     "at-rule-semicolon-space-before": "never",
 
-    # General/Sheet
-    "indentation": 2,
+    # General/Sheet "indentation": 2,
     "no-eol-whitespace": true,
     "no-missing-end-of-source-newline": true,
   }
