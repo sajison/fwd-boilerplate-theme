@@ -1,0 +1,14 @@
+.o-introContent {
+  @extend %container-shared;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .o-introContent__contentimage {
+    flex: 0 1 30%;
+  }
+
+  .o-introContent__content {
+    flex: 0 1 70%;
+  }
+}
