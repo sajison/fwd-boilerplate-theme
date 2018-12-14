@@ -23,6 +23,7 @@ require 'setup/acf-save-location.php';
 require 'setup/admin-menu-remover.php';
 require 'setup/asset-loader.php';
 require 'setup/image-sizes.php';
+require 'setup/show-active-template.php';
 require 'setup/theme-settings-page.php';
 require 'setup/theme-supports.php';
 
