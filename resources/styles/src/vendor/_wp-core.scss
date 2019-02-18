@@ -70,6 +70,7 @@ a img.alignleft {
 
 .screen-reader-text:focus {
   background-color: #eee;
+  box-sizing: border-box;
   clip: auto !important;
   clip-path: none;
   color: #444;

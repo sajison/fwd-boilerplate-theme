@@ -1,5 +1,6 @@
 // Dialog polyfill styles
 dialog {
+  box-sizing: border-box;
   position: absolute;
   left: 0;
   right: 0;

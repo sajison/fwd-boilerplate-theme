@@ -15,7 +15,7 @@
  *
  * @return string           The URL of a Picsum image
  */
-function picsum_img_url( $width, $height='', $modifier='' ) {
+function get_picsum_url( $width, $height='', $modifier='' ) {
   // If a height is defined, append a '/' to it for the final URL
   if( $height != '' ):
     $height = '/' . $height;
@@ -23,10 +23,10 @@ function picsum_img_url( $width, $height='', $modifier='' ) {
 
   // Modifier can be either "grayscale" or "blur"
   if( $modifier == 'grayscale' ):
-    echo ( '//picsum.photos/g/' . $width . $height );
+    return ( '//picsum.photos/g/' . $width . $height );
   elseif ( $modifier == 'blur' ):
-    echo ( '//picsum.photos/' . $width . $height . '/?blur' );
+    return ( '//picsum.photos/' . $width . $height . '/?blur' );
   else:
-    echo ( '//picsum.photos/' . $width . $height );
+    return ( '//picsum.photos/' . $width . $height );
   endif;
 }

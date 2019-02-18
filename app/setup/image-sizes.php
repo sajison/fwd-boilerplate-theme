@@ -10,7 +10,6 @@ function fwd_image_sizes() {
   add_image_size('128w', 128, 9999);
   add_image_size('240w', 240, 9999);
   add_image_size('320w', 320, 9999);
-  add_image_size('360w', 360, 9999);
   add_image_size('375w', 375, 9999);
   add_image_size('480w', 480, 9999);
   add_image_size('540w', 540, 9999);

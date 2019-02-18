@@ -11,9 +11,12 @@
   get_partial('meta', 'head');
   ?>
 
-  <body <?php body_class(); ?> ?>
+  <body <?php body_class('general'); ?> ?>
 
     <?php
+    // Google Tag Manager <noscript> option
+    get_partial('meta', 'tag-manager-noscript');
+
     // Included for the sake of plugins and child themes that rely on it.
     do_action('get_header');
     ?>
@@ -21,19 +24,19 @@
     <?php
     // Website header area
     ?>
-    <header>
+    <header class="general__header">
     </header>
 
     <?php
     // Main content area
     ?>
-    <main>
+    <main class="general__main">
     </main>
 
     <?php
     // Footer content
     ?>
-    <footer>
+    <footer class="general__footer">
     </footer>
 
     <?php

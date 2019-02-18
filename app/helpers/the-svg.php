@@ -1,6 +1,6 @@
 <?php
 /**
- * Gets SVG file contents
+ * Echoes SVG file contents from get_svg()
  *
  * Inlining SVG elements isn't fun, so this does it for you. It brings in the
  * entirety of the SVG file and should be placed between svg tags for more full
@@ -11,6 +11,6 @@
  *
  * @return string         The SVG file contents
  */
-function get_svg( $file ) {
-  return file_get_contents( get_stylesheet_directory_uri() . '/resources/images/dist/svg/' . $file . '.svg');
+function the_svg( $file ) {
+  echo get_svg( $file );
 }
