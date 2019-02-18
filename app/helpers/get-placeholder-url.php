@@ -17,7 +17,7 @@
  *
  * @return string                 The URL of a placeholder image
  */
-function placeholder_img_url( $width, $height='', $text_to_display='' ) {
+function get_placeholder_url( $width, $height='', $text_to_display='' ) {
   // If no height is defined, set it equal to the width
   if( $height == '' ):
     $height = $width;
@@ -25,8 +25,8 @@ function placeholder_img_url( $width, $height='', $text_to_display='' ) {
 
   if( $text_to_display != ''):
     $text_to_display = str_replace( ' ', '+', $text_to_display);
-    echo ( '//via.placeholder.com/' . $width . 'x' . $height . '?' . $text_to_display );
+    return ( '//via.placeholder.com/' . $width . 'x' . $height . '?' . $text_to_display );
   else:
-    echo ( '//via.placeholder.com/' . $width . 'x' . $height );
+    return ( '//via.placeholder.com/' . $width . 'x' . $height );
   endif;
 }
