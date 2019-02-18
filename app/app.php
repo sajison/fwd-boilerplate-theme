@@ -11,10 +11,14 @@ require 'helpers/fwd-nav-menu.php';
 require 'helpers/fwd-sub-nav.php';
 require 'helpers/get-nowrap-field.php';
 require 'helpers/get-partial.php';
+require 'helpers/get-picsum-url.php';
+require 'helpers/get-placeholder-url.php';
 require 'helpers/get-svg.php';
-require 'helpers/picsum-img-url.php';
-require 'helpers/placeholder-img-url.php';
-
+require 'helpers/the-nested-lnks.php';
+require 'helpers/the-nowrap-field.php';
+require 'helpers/the-picsum-url.php';
+require 'helpers/the-placeholder-url.php';
+require 'helpers/the-svg.php';
 
 /**
  * Theme setup and supports
