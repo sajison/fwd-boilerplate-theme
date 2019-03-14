@@ -8,7 +8,8 @@ function fwd_supports() {
   // http://codex.wordpress.org/Function_Reference/add_theme_support#HTML5
   add_theme_support('html5');
 
-  // Enable wide images
+  // Add support for 5.0+ editor styles
   add_theme_support('align-wide');
+  add_theme_support('wp-block-styles');
 }
 add_action( 'after_setup_theme', 'fwd_supports' );
