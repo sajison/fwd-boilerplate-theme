@@ -7,10 +7,6 @@
 // Bourbon
 @import '~bourbon/core/bourbon';
 
-// Normalize SCSS
-@import '~normalize-scss/sass/normalize';
-@include normalize();
-
 
 /**
  * Tools
@@ -71,6 +67,8 @@
 @import './settings/colors';
 // Fonts
 @import './settings/fonts';
+// "Destyle" style reset
+@import './settings/destyle';
 
 
 /**
