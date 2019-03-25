@@ -3,14 +3,12 @@
  */
 
 html {
-  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
   -webkit-font-smoothing: antialiased;
@@ -20,10 +18,3 @@ html {
 body {
   @include size(100%);
 }
-
-// ::selection {}
-
-// @reference https://twitter.com/LeaVerou/status/1045768279753666562
-// :focus:not(:focus-visible) {
-//   outline: none;
-// }

@@ -2,13 +2,6 @@
  * Forms
  */
 
-label,
-button,
-input,
-select {
-  @extend %input-reset;
-}
-
 select {
   &::-ms-expand { // Hack for IE 10 and 11
     display: none;
@@ -18,7 +11,7 @@ select {
 // button {}
 
 #{$all-buttons},
-#{$all-text-inputs}, {
+#{$all-text-inputs} {
   border: none;
 }
 
