@@ -14,7 +14,7 @@ require 'helpers/get-partial.php';
 require 'helpers/get-picsum-url.php';
 require 'helpers/get-placeholder-url.php';
 require 'helpers/get-svg.php';
-require 'helpers/the-nested-lnks.php';
+require 'helpers/the-nested-links.php';
 require 'helpers/the-nowrap-field.php';
 require 'helpers/the-picsum-url.php';
 require 'helpers/the-placeholder-url.php';
